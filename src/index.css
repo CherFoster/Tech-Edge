@@ -11,99 +11,6 @@ html, body {
   box-sizing: border-box;
 }
 
-/* body {
-  font-family: 'Poppins', sans-serif;
-  background: 
-  radial-gradient(circle at 50% 0%, #424455, transparent), 
-  radial-gradient(circle at 50% 100%, #424455, #1f2029);
-  margin: 0;
-  padding: 0;
-} */
-
-/*****      NavBar Items      *****/
-
-/* header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(to bottom, rgb(36, 37, 44), transparent);
-  padding: 1rem 2rem;
-  width: 100%;
-}
-
-.nav-items {
-  display: flex;
-  margin: 0 2rem;
-  
-}
-
-.nav-link {
-  font-family: 'Quantico', sans-serif;
-  font-family: 'Tektur', sans-serif;
-  font-size: 1.2rem;
-  letter-spacing: 0.05rem;
-  position: relative;
-  background: white;
-  color: transparent; 
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: color 150ms; 
-  margin: 0 2rem;
-}
-.nav-link::before {
-  content: "";
-  background: linear-gradient(rgb(7, 186, 241), transparent);
-  width: 100%;
-  height: 0.1rem;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  transform: scaleX(0);
-  transform-origin: bottom right;
-  transition: transform 400ms;
-}
-.nav-link:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-.nav-link:hover {
-  color: initial;
-} */
-
-/*****      Home Page      *****/
-
-/* .home-page {
-  margin-top: 5rem;
-  box-shadow: 0 2px 5px 1px rgba(0,0,0,0.15), 0 -10px 20px -5px rgba(0,0,0,0.3) inset, 0 150px 100px -80px rgba(0,0,0,0.4);
-  transform: translateY(0px) rotateY(20deg) scale(1);
-  transition: all .3s ease;
-  font-family: 'Quantico', sans-serif;
-  font-family: 'Tektur', sans-serif;
-  color: white;
-}
-.home-h1 {
-  padding: 0rem 5rem;
-  letter-spacing: 0.3rem;
-}
-.logo {
-  margin-top: 10rem;
-  padding: 0rem 5rem;
-
-} */
-
-/* #code-container {
-  position: relative;
-  width: 50%;
-  height: 400px;
-  background-color: transparent;
-  overflow: hidden;
-  font-family: 'Courier New', monospace; 
-  white-space: nowrap;
-
-} */
-
-
 @supports(animation-timeline: view()){
   @keyframes fade-out {
     to {
@@ -165,7 +72,7 @@ body {
   font-family: 'Poppins', sans-serif;
   background: 
   radial-gradient(circle at 50% 0%, #424455, transparent), 
-  radial-gradient(circle at 50% 100%, #424455, #1f2029);
+  radial-gradient(circle at 50% 100%, #1f2029, #13131b);
   margin: 0;
   padding: 0;
 }
@@ -200,6 +107,12 @@ nav {
   padding: 0;
   ul {
     padding-right: 1em;
+    background: white;
+    color: transparent; 
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 150ms; 
     margin: 0;
     display: inline-flex;
     gap: 1rem;
@@ -217,19 +130,23 @@ nav {
 .hero {
   min-height: 60vh;
   background-image:
-    url("https://images.unsplash.com/photo-1622849026560-7e723676e3d1?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    url("https://i.postimg.cc/59w6qkg1/Untitled-design-2-removebg-preview.png");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: 100% 50%;
-  mix-blend-mode: lighten;
+  /* mix-blend-mode: lighten; */
   display: grid;
   align-content: center;
   container-type: inline-size;
+  /* box-shadow: 0 2px 5px 1px rgba(0,0,0,0.15), 0 -10px 20px -5px rgba(0,0,0,0.3) inset, 0 150px 100px -80px rgba(0,0,0,0.4);
+  transform: translateY(0px) rotateY(20deg) scale(1);
+  transition: all .3s ease; */
   h1 {
     font-size: clamp(2rem, 7cqi, 10rem);
     font-weight: 100;
-    max-width: 50%;
+    max-width: 100%;
     color: hsl(290 85% 75%);
+    letter-spacing: 0.3rem;
   }
   .btn {
     display: inline;

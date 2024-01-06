@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function NavBar() {
   return (
     <header className='header'>
-        <nav className="nav"> {/* Assuming 'nav' class from your CSS */}
+        <nav className="nav">
         <ul>
             <li><Link to='/'>Home</Link></li>
             <li><Link to='/about'>About</Link></li>
