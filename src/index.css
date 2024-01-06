@@ -29,6 +29,9 @@ body {
   --white-color-alt: hsl(12, 14%, 93%);
   --dark-color: hsl(300, 100%, 0%);
 } */
+
+/*****      NavBar Items      *****/
+
 header {
   display: flex;
   align-items: center;
@@ -77,3 +80,36 @@ header {
 .nav-link:hover {
   color: initial;
 }
+
+/*****      Home Page      *****/
+
+.home-page {
+  margin-top: 5rem;
+  box-shadow: 0 2px 5px 1px rgba(0,0,0,0.15), 0 -10px 20px -5px rgba(0,0,0,0.3) inset, 0 150px 100px -80px rgba(0,0,0,0.4);
+  transform: translateY(0px) rotateY(20deg) scale(1);
+  transition: all .3s ease;
+  font-family: 'Quantico', sans-serif;
+  font-family: 'Tektur', sans-serif;
+  color: white;
+}
+.home-h1 {
+  padding: 0rem 5rem;
+  letter-spacing: 0.3rem;
+}
+.logo {
+  margin-top: 10rem;
+  padding: 0rem 5rem;
+
+}
+
+/* #code-container {
+  position: relative;
+  width: 50%;
+  height: 400px;
+  background-color: transparent;
+  overflow: hidden;
+  font-family: 'Courier New', monospace; 
+  white-space: nowrap;
+
+} */
+
