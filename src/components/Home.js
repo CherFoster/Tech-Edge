@@ -51,15 +51,15 @@ function Home(){
     //     `;
     //     document.head.appendChild(style);
 
-    return(
-        <div className="home-page">
-            <img alt ='logo' className="logo" src='https://i.postimg.cc/qMp0wdd4/Tech-Edge-removebg-preview-removebg-preview.png' />
-            <h1 className="home-h1">Where Code Creates Impact</h1>
-            <p className="home-p">At Tech Edge, innovation meets reliability in the realm of developing. I am a passionate software engineer, dedicated to transforming your digital dreams into reality.</p>
-
-            <div id="code-container"></div>
+    return (
+        <div className="home-page hero"> {/* Added 'hero' class */}
+          <img alt='logo' className="logo" src='https://i.postimg.cc/qMp0wdd4/Tech-Edge-removebg-preview-removebg-preview.png' />
+          <h1 className="home-h1">Where Code Creates Impact</h1>
+          <p className="home-p">At Tech Edge, innovation meets reliability in the realm of developing. I am a passionate software engineer, dedicated to transforming your digital dreams into reality.</p>
+    
+          <div id="code-container"></div>
         </div>
-    )
-}
+      );
+    }
 
 export default Home;
