@@ -247,7 +247,7 @@ nav:after {
 
 .overlay-text {
   position: absolute;
-  top: 50%; /* Center vertically, adjust as necessary */
+  top: 50%;
   left: 40%; 
   transform: translate(-50%, -50%); 
   color: white !important; 
@@ -259,4 +259,32 @@ nav:after {
 
 .home-h1 {
   padding-top: 80px;
+}
+
+.home-p2 {
+  text-align: center;
+}
+
+/* Arrow  */
+.arrow {
+  box-sizing: border-box;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: white;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
